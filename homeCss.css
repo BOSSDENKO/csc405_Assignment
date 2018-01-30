@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+}
+
+section{
+	background-image: url(585634923-black-background-wallpaper.jpg);
+	background-size: cover;
+	height: 100vh;
+	background-position: center;
+}
+
+.nav{
+	float: right;
+	list-style: none;
+	margin-top: 50px;
+}
+
+.nav li{
+	display: inline;
+	margin-right: 50px;
+}
+
+.nav li a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 10px;
+	font-family: roboto;
+	font-size: 20px;
+}
+
+ .nav li a.active{
+	color: #5cdd1e;
+	border-bottom: 1px solid  #5cdd1e;
+}
+
+.nav li a:hover{
+	color:  #5cdd1e;
+}
+
+.logo{
+	width: 100px;
+	height: auto;
+	position: fixed;
+}
+
+h1{
+	color: white;
+	position: absolute;
+	margin-top: 270px;
+	margin-left: 450px;
+	text-align: center;
+	border-bottom: 2px solid #5cdd1e;
+}
+
+
+h2{
+	color: #5cdd1e;
+	position: absolute;
+	margin-top: 310px;
+	margin-left: 360px;
+	text-align: center;
+	
+}
+
+.button{
+	position: absolute;
+	margin-top: 360px;
+	margin-left: 470px;
+}
+
+.btn{
+	border:1px solid #5cdd1e;
+	border-style: outset;
+	color: white;
+	padding:10px 30px;
+	font-size: 18px;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+.btn1:hover{
+	background-color: #5cdd1e;
+}
+
+.btn2:hover{
+	background-color: #5cdd1e;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	color: white;
+	font-size: 17px;
+	margin-left: 500px;
+}
